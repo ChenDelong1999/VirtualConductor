@@ -166,3 +166,14 @@ RDE、SCE、SDP 的具体定义见 [评价指标定义.pdf](./assets/评价指�
   year      = {2022},
 }
 ```
+
+```bibtex
+@article{li2021survey,
+  title={A survey of convolutional neural networks: analysis, applications, and prospects},
+  author={Li, Zewen and Liu, Fan and Yang, Wenjie and Peng, Shouheng and Zhou, Jun},
+  journal={IEEE Transactions on Neural Networks and Learning Systems},
+  year={2021},
+  publisher={IEEE}
+}
+
+```

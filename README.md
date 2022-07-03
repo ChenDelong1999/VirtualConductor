@@ -10,6 +10,8 @@
 
 ## 🔔 News 
 
+**2022-07-03** [测试集](https://pan.baidu.com/s/18ecHYk9b4YM5YTcBNn37qQ?pwd=3209 ) 与 [歌曲列表](./assets/歌曲列表.md) 现已公开，请按照 [赛题说明](./assets/赛题说明.pdf) 中的要求，于2022年7月7日12:00前提交参赛作品。
+
 **2022-03-21** [第十二届计算机工程与网络国际会议（CENet2022）暨首届国际“远见杯”元智能数据挑战大赛通知](https://www.jscs.org.cn/x1.php?id=770)
 
 **2022-03-21** [首届国际“远见杯”元智能数据挑战大赛通知](https://www.jscs.org.cn/x1.php?id=770)
@@ -18,7 +20,7 @@
 
 - 训练集：https://pan.baidu.com/s/1Pmtr7V7-9ChJqQp04NOyZg?pwd=3209
 - 验证集：https://pan.baidu.com/s/1B5JrZnFCFvI9ABkuJeWoFQ?pwd=3209 
-- 测试集：测试集将在作品提交截止日期前3天公布
+- 测试集：https://pan.baidu.com/s/18ecHYk9b4YM5YTcBNn37qQ?pwd=3209 
 
 
 ConductorMotion100 数据集包含训练集、验证集与测试集，时长分别为90/5/5小时。将压缩文件解压至 `<Your Dataset Dir>` 后，得到的文件结构将会是：
@@ -161,11 +163,16 @@ RDE、SCE、SDP 的具体定义见 [评价指标定义.pdf](./assets/评价指�
   author    = {Fan Liu and
                Delong Chen and
                Ruizhi Zhou and
-               Sai Yanh and
+               Sai Yang and
                Feng Xu},
-  title     = {Self-Supervised Music Motion Synchronization Learning for Music-Driven Conducting Motion Generation},
+  title     = {Self-Supervised Music Motion Synchronization Learning for Music-Driven
+               Conducting Motion Generation},
   journal   = {Journal of Computer Science and Technology},
+  volume    = {37},
+  number    = {3},
+  pages     = {539--558},
   year      = {2022},
+  doi       = {10.1007/s11390-022-2030-z},
 }
 ```
 

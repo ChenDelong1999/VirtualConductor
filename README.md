@@ -10,6 +10,8 @@
 
 ## 🔔 News 
 
+**2022-07-05** 英文模型设计报告模板同大会会议论文模板，可在 [此处](https://www.tocenet.org/?attachment_id=17608&download=1。) 下载。
+
 **2022-07-03** [测试集](https://pan.baidu.com/s/18ecHYk9b4YM5YTcBNn37qQ?pwd=3209 ) 与 [歌曲列表](./assets/歌曲列表.md) 现已公开，请按照 [赛题说明](./assets/赛题说明.pdf) 中的要求，于2022年7月7日12:00前提交参赛作品。
 
 **2022-03-21** [第十二届计算机工程与网络国际会议（CENet2022）暨首届国际“远见杯”元智能数据挑战大赛通知](https://www.jscs.org.cn/x1.php?id=770)

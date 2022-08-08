@@ -24,6 +24,7 @@
 - 验证集：https://pan.baidu.com/s/1B5JrZnFCFvI9ABkuJeWoFQ?pwd=3209 
 - 测试集：https://pan.baidu.com/s/18ecHYk9b4YM5YTcBNn37qQ?pwd=3209 
 
+You can also access the dataset via [**Google Drive**](https://drive.google.com/drive/folders/1I2eFM-vEbqVXtD4sUPmGFSeNZeu_5JMu?usp=sharing)
 
 ConductorMotion100 数据集包含训练集、验证集与测试集，时长分别为90/5/5小时。将压缩文件解压至 `<Your Dataset Dir>` 后，得到的文件结构将会是：
 

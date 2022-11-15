@@ -174,7 +174,7 @@ During training, use `tensorboard --logdir runs` to set up tensorboard logging. 
   ```
   The training takes ~2.5 hours.
   ![img.png](assets/M2SNet-tensorboard-hard-test.png)
-   
+  
   <!-- Easy: 0.59187 | Hard: 0.56757 | Super-hard: 0.53661 -->
 
 ### Step 3
@@ -187,6 +187,12 @@ During training, use `tensorboard --logdir runs` to set up tensorboard logging. 
   ![img.png](assets/M2SGAN-tensorboard.png)
 - 
   <!-- MPE: 0.76339 | RDE: 0.58609 | SCE: 1.88849 -->
+
+### Prospective Cup
+
+[Prospective Cup]: ProspectiveCup/README.md
+
+
 
 ### License
 

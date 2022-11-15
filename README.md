@@ -185,12 +185,12 @@ During training, use `tensorboard --logdir runs` to set up tensorboard logging. 
    ```
   The training takes ~28 hours with a Titan Xp GPU.
   ![img.png](assets/M2SGAN-tensorboard.png)
-- 
+  
   <!-- MPE: 0.76339 | RDE: 0.58609 | SCE: 1.88849 -->
 
 ### Prospective Cup
 
-[Prospective Cup]: ProspectiveCup/README.md
+["Prospective Cup"]: ProspectiveCup/README.md
 
 
 

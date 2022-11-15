@@ -1,4 +1,3 @@
-from scipy import signal
 from scipy.signal import savgol_filter, medfilt
 import numpy as np
 import matplotlib.pyplot as plt
@@ -174,22 +173,6 @@ def vis_motion(motions, kp_score=None, save_path='../test/result', name='_[name]
     wirter.release()
     cv2.destroyAllWindows()
     return video_file
-
-
-def filter(keypoints, freq_low=0.4, freq_high=5, sample_rate=25, mode='high pass'):
-    
-    highpass_pose = np.zeros_like(keypoints)
-    wnl = 2 * freq_low / sample_rate
-    wnh = 2 * freq_high / sample_rate
-
-    high_b, high_a = signal.butter(8, [wnl, wnh], 'bandpass', output='ba')
-
-    for i in range(13):
-        for j in range(2):
-            highpass_pose[:,i,j] = signal.filtfilt(high_b, high_a, keypoints[:,i,j])
-
-    if mode == 'high pass':
-        return highpass_pose
 
 
 def COCO_to_CM100(kp_pred):

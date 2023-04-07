@@ -150,6 +150,12 @@ def main(args):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Generative Learning Stage')
+    parser.add_argument('--mode', default='hard',
+                        help='specify the training mode. '
+                             '"easy": train with easy negatives (unstable). '
+                             '"hard": train with hard negatives (best). '
+                             '"super_hard": train with super-hard negatives. '
+                             '"hard_test": train on test set for Mean Perceptual Error (MPE)')
     parser.add_argument('--M2SNet', default='checkpoints/M2SNet/hard/M2SNet_last.pt')
     parser.add_argument('--transfer_music_encoder', default=True)
     parser.add_argument('--train_music_encoder', default=False)

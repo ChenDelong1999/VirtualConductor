@@ -136,7 +136,6 @@ venv.bak/
 .dmypy.json
 dmypy.json
 
-/checkpoints/
 /runs/
 /test_unseen.py
 testing sample.png
